@@ -1,10 +1,10 @@
 appVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: hello-pod
 spec:
   container:
-  - name: nginx
+  - name: hello-pod
     image: nginx
     ports: 
     - containerPort: 80
